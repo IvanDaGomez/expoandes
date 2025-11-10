@@ -1,0 +1,25 @@
+[
+  {
+    "trainID": "J70",
+    "lineName": "Blue Line",
+    "stations": [
+      { "stationID": "S1", "name": "Central", "distanceFromStart": 0 },
+      { "stationID": "S2", "name": "North Park", "distanceFromStart": 5 },
+      { "stationID": "S3", "name": "East Gate", "distanceFromStart": 10 },
+      { "stationID": "S4", "name": "Harbor", "distanceFromStart": 15 }
+    ],
+    "schedule": {
+      "startTime": "06:00",
+      "endTime": "22:00"
+    },
+    "fleet": {
+      "numberOfTrains": 10,
+      "trainType": "Electric"
+    },
+    "metadata": {
+      "createdAt": "2025-11-10T00:00:00Z",
+      "updatedAt": "2025-11-10T00:00:00Z",
+      "status": "active"
+    }
+  }
+]

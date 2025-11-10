@@ -1,0 +1,15 @@
+POST http://localhost:5000/data
+Content-Type: application/json
+
+{
+  "velocidad": 50,
+  "distancia_restante": 10
+}
+
+###
+POST http://localhost:5000/display
+Content-Type: application/json
+
+{
+  "message": "J70 restante: 5 minutos"
+}
