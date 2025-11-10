@@ -1,25 +1,171 @@
 [
   {
     "trainID": "J70",
-    "lineName": "Blue Line",
+    "lineName": "Aguas - Colombo Americano",
     "stations": [
       { "stationID": "S1", "name": "Central", "distanceFromStart": 0 },
       { "stationID": "S2", "name": "North Park", "distanceFromStart": 5 },
       { "stationID": "S3", "name": "East Gate", "distanceFromStart": 10 },
       { "stationID": "S4", "name": "Harbor", "distanceFromStart": 15 }
     ],
-    "schedule": {
-      "startTime": "06:00",
-      "endTime": "22:00"
-    },
-    "fleet": {
-      "numberOfTrains": 10,
-      "trainType": "Electric"
-    },
-    "metadata": {
-      "createdAt": "2025-11-10T00:00:00Z",
-      "updatedAt": "2025-11-10T00:00:00Z",
-      "status": "active"
-    }
+    "schedule": { "startTime": "06:00", "endTime": "22:00" },
+    "fleet": { "numberOfTrains": 10, "trainType": "Electric" },
+    "metadata": { "createdAt": "2025-11-10T00:00:00Z", "updatedAt": "2025-11-10T00:00:00Z", "status": "active" }
+  },
+  {
+    "trainID": "K12",
+    "lineName": "Downtown - Riverside",
+    "stations": [
+      { "stationID": "S1", "name": "Main Square", "distanceFromStart": 0 },
+      { "stationID": "S2", "name": "City Hall", "distanceFromStart": 3 },
+      { "stationID": "S3", "name": "Riverfront", "distanceFromStart": 7 },
+      { "stationID": "S4", "name": "Market", "distanceFromStart": 12 }
+    ],
+    "schedule": { "startTime": "05:30", "endTime": "23:00" },
+    "fleet": { "numberOfTrains": 8, "trainType": "Diesel" },
+    "metadata": { "createdAt": "2025-11-10T00:00:00Z", "updatedAt": "2025-11-10T00:00:00Z", "status": "active" }
+  },
+  {
+    "trainID": "L55",
+    "lineName": "Airport - Central Station",
+    "stations": [
+      { "stationID": "S1", "name": "Airport Terminal", "distanceFromStart": 0 },
+      { "stationID": "S2", "name": "Green Park", "distanceFromStart": 4 },
+      { "stationID": "S3", "name": "Museum", "distanceFromStart": 9 },
+      { "stationID": "S4", "name": "Central Station", "distanceFromStart": 15 }
+    ],
+    "schedule": { "startTime": "06:15", "endTime": "21:45" },
+    "fleet": { "numberOfTrains": 6, "trainType": "Electric" },
+    "metadata": { "createdAt": "2025-11-10T00:00:00Z", "updatedAt": "2025-11-10T00:00:00Z", "status": "active" }
+  },
+  {
+    "trainID": "M33",
+    "lineName": "University - Tech Park",
+    "stations": [
+      { "stationID": "S1", "name": "University", "distanceFromStart": 0 },
+      { "stationID": "S2", "name": "Library", "distanceFromStart": 2 },
+      { "stationID": "S3", "name": "Innovation Center", "distanceFromStart": 6 },
+      { "stationID": "S4", "name": "Tech Park", "distanceFromStart": 10 }
+    ],
+    "schedule": { "startTime": "06:00", "endTime": "20:00" },
+    "fleet": { "numberOfTrains": 5, "trainType": "Electric" },
+    "metadata": { "createdAt": "2025-11-10T00:00:00Z", "updatedAt": "2025-11-10T00:00:00Z", "status": "active" }
+  },
+  {
+    "trainID": "N44",
+    "lineName": "Harbor - Mountain View",
+    "stations": [
+      { "stationID": "S1", "name": "Harbor", "distanceFromStart": 0 },
+      { "stationID": "S2", "name": "Old Town", "distanceFromStart": 5 },
+      { "stationID": "S3", "name": "Hilltop", "distanceFromStart": 11 },
+      { "stationID": "S4", "name": "Mountain View", "distanceFromStart": 16 }
+    ],
+    "schedule": { "startTime": "06:30", "endTime": "21:30" },
+    "fleet": { "numberOfTrains": 7, "trainType": "Diesel" },
+    "metadata": { "createdAt": "2025-11-10T00:00:00Z", "updatedAt": "2025-11-10T00:00:00Z", "status": "active" }
+  },
+  {
+    "trainID": "O21",
+    "lineName": "Central - West End",
+    "stations": [
+      { "stationID": "S1", "name": "Central", "distanceFromStart": 0 },
+      { "stationID": "S2", "name": "Market Street", "distanceFromStart": 3 },
+      { "stationID": "S3", "name": "Westside", "distanceFromStart": 7 },
+      { "stationID": "S4", "name": "West End", "distanceFromStart": 11 }
+    ],
+    "schedule": { "startTime": "05:45", "endTime": "22:15" },
+    "fleet": { "numberOfTrains": 9, "trainType": "Electric" },
+    "metadata": { "createdAt": "2025-11-10T00:00:00Z", "updatedAt": "2025-11-10T00:00:00Z", "status": "active" }
+  },
+  {
+    "trainID": "P19",
+    "lineName": "Eastside Loop",
+    "stations": [
+      { "stationID": "S1", "name": "East Central", "distanceFromStart": 0 },
+      { "stationID": "S2", "name": "Greenwood", "distanceFromStart": 2 },
+      { "stationID": "S3", "name": "Sunnyvale", "distanceFromStart": 5 },
+      { "stationID": "S4", "name": "East Terminal", "distanceFromStart": 8 }
+    ],
+    "schedule": { "startTime": "06:00", "endTime": "21:00" },
+    "fleet": { "numberOfTrains": 6, "trainType": "Electric" },
+    "metadata": { "createdAt": "2025-11-10T00:00:00Z", "updatedAt": "2025-11-10T00:00:00Z", "status": "active" }
+  },
+  {
+    "trainID": "Q07",
+    "lineName": "South Bay Connector",
+    "stations": [
+      { "stationID": "S1", "name": "South Station", "distanceFromStart": 0 },
+      { "stationID": "S2", "name": "Bayview", "distanceFromStart": 4 },
+      { "stationID": "S3", "name": "Harbor Point", "distanceFromStart": 9 },
+      { "stationID": "S4", "name": "Connector Terminal", "distanceFromStart": 13 }
+    ],
+    "schedule": { "startTime": "05:30", "endTime": "22:00" },
+    "fleet": { "numberOfTrains": 5, "trainType": "Diesel" },
+    "metadata": { "createdAt": "2025-11-10T00:00:00Z", "updatedAt": "2025-11-10T00:00:00Z", "status": "active" }
+  },
+  {
+    "trainID": "R88",
+    "lineName": "North Line Express",
+    "stations": [
+      { "stationID": "S1", "name": "North Terminal", "distanceFromStart": 0 },
+      { "stationID": "S2", "name": "Parkside", "distanceFromStart": 3 },
+      { "stationID": "S3", "name": "Green Hill", "distanceFromStart": 7 },
+      { "stationID": "S4", "name": "North End", "distanceFromStart": 12 }
+    ],
+    "schedule": { "startTime": "06:00", "endTime": "21:30" },
+    "fleet": { "numberOfTrains": 8, "trainType": "Electric" },
+    "metadata": { "createdAt": "2025-11-10T00:00:00Z", "updatedAt": "2025-11-10T00:00:00Z", "status": "active" }
+  },
+  {
+    "trainID": "S56",
+    "lineName": "West Coast Shuttle",
+    "stations": [
+      { "stationID": "S1", "name": "West Point", "distanceFromStart": 0 },
+      { "stationID": "S2", "name": "Harborfront", "distanceFromStart": 4 },
+      { "stationID": "S3", "name": "Ocean Park", "distanceFromStart": 8 },
+      { "stationID": "S4", "name": "Coastal Terminal", "distanceFromStart": 12 }
+    ],
+    "schedule": { "startTime": "05:45", "endTime": "22:15" },
+    "fleet": { "numberOfTrains": 7, "trainType": "Diesel" },
+    "metadata": { "createdAt": "2025-11-10T00:00:00Z", "updatedAt": "2025-11-10T00:00:00Z", "status": "active" }
+  },
+  {
+    "trainID": "T02",
+    "lineName": "City Center Loop",
+    "stations": [
+      { "stationID": "S1", "name": "Central Station", "distanceFromStart": 0 },
+      { "stationID": "S2", "name": "Museum District", "distanceFromStart": 3 },
+      { "stationID": "S3", "name": "University", "distanceFromStart": 6 },
+      { "stationID": "S4", "name": "Convention Center", "distanceFromStart": 9 }
+    ],
+    "schedule": { "startTime": "06:00", "endTime": "21:00" },
+    "fleet": { "numberOfTrains": 6, "trainType": "Electric" },
+    "metadata": { "createdAt": "2025-11-10T00:00:00Z", "updatedAt": "2025-11-10T00:00:00Z", "status": "active" }
+  },
+  {
+    "trainID": "U77",
+    "lineName": "East-West Connector",
+    "stations": [
+      { "stationID": "S1", "name": "East Terminal", "distanceFromStart": 0 },
+      { "stationID": "S2", "name": "Central Park", "distanceFromStart": 4 },
+      { "stationID": "S3", "name": "West Hills", "distanceFromStart": 9 },
+      { "stationID": "S4", "name": "West Terminal", "distanceFromStart": 14 }
+    ],
+    "schedule": { "startTime": "05:30", "endTime": "22:00" },
+    "fleet": { "numberOfTrains": 7, "trainType": "Diesel" },
+    "metadata": { "createdAt": "2025-11-10T00:00:00Z", "updatedAt": "2025-11-10T00:00:00Z", "status": "active" }
+  },
+  {
+    "trainID": "V09",
+    "lineName": "North-South Rapid",
+    "stations": [
+      { "stationID": "S1", "name": "North Terminal", "distanceFromStart": 0 },
+      { "stationID": "S2", "name": "City Center", "distanceFromStart": 5 },
+      { "stationID": "S3", "name": "South Park", "distanceFromStart": 10 },
+      { "stationID": "S4", "name": "South Terminal", "distanceFromStart": 15 }
+    ],
+    "schedule": { "startTime": "06:00", "endTime": "22:00" },
+    "fleet": { "numberOfTrains": 8, "trainType": "Electric" },
+    "metadata": { "createdAt": "2025-11-10T00:00:00Z", "updatedAt": "2025-11-10T00:00:00Z", "status": "active" }
   }
 ]

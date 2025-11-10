@@ -6,6 +6,7 @@ try:
 except Exception:
     lcd = None
     print("⚠️ LCD not found, running in console mode")
+
 lcd.write_string("LCD Initialized")
 LOCAL_BROKER = os.getenv("LOCAL_BROKER", "localhost")
 FORWARD_BROKER = os.getenv("FORWARD_BROKER", "192.168.80.22")

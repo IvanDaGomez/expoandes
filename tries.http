@@ -7,9 +7,9 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/display
+POST http://192.168.0.100:5000/display
 Content-Type: application/json
 
 {
-  "message": "J70 restante: 5 minutos"
+  "message": "pablot"
 }
