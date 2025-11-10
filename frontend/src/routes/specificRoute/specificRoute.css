@@ -1,0 +1,30 @@
+.route-details {
+  background: #fafafa;
+  border-radius: 16px;
+  padding: 18px;
+  margin-top: 15px;
+  text-align: left;
+  font-size: 0.95rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.route-details p {
+  margin: 8px 0;
+}
+
+.route-details strong {
+  color: #0078ff;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #0078ff;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.back-link:hover {
+  color: #005fd4;
+}
